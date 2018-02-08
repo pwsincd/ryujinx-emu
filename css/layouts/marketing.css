@@ -10,7 +10,7 @@
  */
 body {
     line-height: 1.7em;
-    color: #7f8c8d;
+    color: white;
     font-size: 13px;
 }
 
@@ -64,6 +64,21 @@ label {
     font-size: 100%;
     width: 100%;
     margin-bottom: 1em;
+}
+a {
+    color: #d4d4d4;
+}
+a:visited {
+    color: #767676;
+}
+a:hover {
+    color: #ae0000;
+}
+a:focus {
+    color: #767676;
+}
+a:active {
+    color: #ae0000;
 }
 
 /*
@@ -184,7 +199,11 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: white;
+    background: #3A3A3A
+
+}
+.content-normal {
+    background: #3A3A3A
 
 }
 
