@@ -1,3 +1,3 @@
-# Ryujinx-emu
+# RyujiNX-emu
 
-The site for Ryujinx-emu. 
+The site for RyujiNX-emu. 
