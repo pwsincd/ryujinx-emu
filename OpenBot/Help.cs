@@ -32,7 +32,7 @@ namespace RyuBot.Modules
                 "\r\n!about : Shows the latest bot information." +
                 "\r\n!input <value> : Sends the remainder of the command message as its own message." +
                 "\r\n!sayhello : Say hello." +
-                "\r\n!howareyou : Say how are you ?" +
+                "\r\n!howareyou <@user> : Say how are you ?" +
                 "\r\n!delete <value> : Deletes the specified amount of previous messages." + 
                 "```" +  
                 "\r\nPS: **ALL COMMANDS ARE LOGGED!**I am always watching ; 3");

@@ -10,14 +10,18 @@ namespace RyuBot.Modules
 {
     public class HowAreYou : ModuleBase<SocketCommandContext>
     {
-        string cd = AppDomain.CurrentDomain.BaseDirectory; 
+        string cd = AppDomain.CurrentDomain.BaseDirectory;
+        string time = DateTime.Now.ToString(); 
 
         [Command("HowAreYou")]
         public async Task How_Are_You(SocketGuildUser user)
         {
             var messages = await this.Context.Channel.GetMessagesAsync(1).Flatten();
             await this.Context.Channel.DeleteMessagesAsync(messages);
-            await Context.Channel.SendMessageAsync("How are you " + user.ToString() + "?");
+            await Context.Channel.SendMessageAsync("**How are you** " + user.ToString() + "?");
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine(time + ":: Command Request: !howareyou; " + "ID <" + Context.User.Id.ToString() + "> " +
+                "\r\nUsername: <" + Context.User.Username.ToString() + ">" + " Channel ID: <" + Context.Channel.Id + ">" + " Mentioned user: " + "<" + user.Mention + ">");
         }
     }
 }
