@@ -24,9 +24,9 @@ namespace RyuBot
         {
             Console.WriteLine("=====================================" +
                 "\r\nDr.Hackniks RyujiNX Bot for Discord" +
-                "\r\nVersion:: 0.1.3" +
+                "\r\nVersion: 0.1.3" +
                 "\r\nBot name: OpenBot" +
-                "\r\nBot revision: 18_2_11_1118am" +
+                "\r\nBot revision: 18_2_11_1232pm" +
                 "\r\nBot Type: win10-x64 | Web-socket-based" + 
                 "\r\n=====================================");
             try
