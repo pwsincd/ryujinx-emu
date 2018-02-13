@@ -15,7 +15,7 @@ namespace RyuBot.Modules
         [RequireUserPermission(GuildPermission.KickMembers)]
         [RequireBotPermission(GuildPermission.KickMembers)]
 
-        public async Task KickUser(IGuildUser user, string reason = "No reason providied.")
+        public async Task KickUser(IGuildUser user, string reason = "No reason provided.")
         {
             var messages = await this.Context.Channel.GetMessagesAsync(1).Flatten();
             await this.Context.Channel.DeleteMessagesAsync(messages);
@@ -29,7 +29,7 @@ namespace RyuBot.Modules
         [RequireUserPermission(GuildPermission.BanMembers)]
         [RequireBotPermission(GuildPermission.BanMembers)]
 
-        public async Task BanUser(IGuildUser user, string reason = "No reason providied.")
+        public async Task BanUser(IGuildUser user, string reason = "No reason provided.")
         {
             var messages = await this.Context.Channel.GetMessagesAsync(1).Flatten();
             await this.Context.Channel.DeleteMessagesAsync(messages);
