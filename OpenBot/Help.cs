@@ -35,7 +35,7 @@ namespace RyuBot.Modules
                 "\r\n!howareyou <@user> : Say how are you ?" +
                 "\r\n!delete <value> : Deletes the specified amount of previous messages." + 
                 "```" +  
-                "\r\nPS: **ALL COMMANDS ARE LOGGED!**I am always watching ; 3");
+                "\r\nPS: **ALL COMMANDS ARE LOGGED!** I am always watching ; 3");
             Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(time + ":: Command Request: !help; " + "ID <" + Context.User.Id.ToString() + "> " +
                 "\r\nUsername: <" + Context.User.Username.ToString() + ">" + " Channel ID: <" + Context.Channel.Id + ">");
