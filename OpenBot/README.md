@@ -9,7 +9,7 @@
 ### Bot Usage: 
 ```
 !warn<@user> : Warns the mentioned user.
-!rickroll<@user> : RickRolls the mentioned user.For use in <#410208622778384385> 
+!rickroll<@user> : RickRolls the mentioned user.For use in <#410208622778384385>
 !git < enable / disable > < git_webhook > : Setups, enables / disables the Git mode~Not ready yet.
 !res<@user> : Sends a message with Important Info about the emulator to the mentioned user.
 !kick<@user> : Kicks the mentioned user.
@@ -17,6 +17,6 @@
 !about : Shows the latest bot information.
 !input <value> : Sends the remainder of the command message as its own message.
 !sayhello : Say hello.
-!howareyou : Say how are you ?
+!howareyou <@user> : Say how are you ?
 !delete <value> : Deletes the specified amount of previous messages.
 ```
