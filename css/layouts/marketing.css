@@ -13,7 +13,13 @@ body {
     color: white;
     font-size: 13px;
 }
-
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 h1,
 h2, color: #000000;
 h3,
