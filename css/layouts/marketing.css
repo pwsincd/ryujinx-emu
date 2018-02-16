@@ -107,6 +107,22 @@ a.pure-button-primary {
     font-size: 120%;
 }
 
+a.pure-button-primary-fit {
+    background: white;
+    color: #940000;
+    border: none; 
+	width: 300px; 
+    font-size: 120%;
+}
+
+a.pure-button-secondary-fit {
+    background: white;
+    color: #940000;
+    border: none; 
+	width: 250px; 
+    font-size: 120%;
+}
+
 
 /*
  * -- MENU STYLES --
