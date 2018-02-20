@@ -25,7 +25,7 @@ namespace RyuBot.Modules
                 "\r\nDr.Hackniks RyujiNX Bot for Discord" +
                 "\r\nVersion: 0.1.4" +
                 "\r\nBot name: OpenBot" +
-                "\r\nBot revision: 18_2_17_959pm" +
+                "\r\nBot revision: 18_2_19_729pm" +
                 "\r\nBot Type: " + key_stat + " | Web-socket-based" +
                 "\r\n=====================================");
             Console.BackgroundColor = ConsoleColor.DarkYellow;

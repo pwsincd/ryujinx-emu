@@ -17,16 +17,17 @@ namespace RyuBot
         private CommandHandler _handler;
         private string cd = System.IO.Directory.GetCurrentDirectory();
         private string time = DateTime.Now.ToString();
-        private string key_stat = "win10-x64";
+        private string key_stat = "ubuntu-x64";
 
         public async Task StartAsync()
         {
+            var key = "<key>";
             _client = new DiscordSocketClient();
             Console.WriteLine("=====================================" +
                 "\r\nDr.Hackniks RyujiNX Bot for Discord" +
                 "\r\nVersion: 0.1.4" +
                 "\r\nBot name: OpenBot" +
-                "\r\nBot revision: 18_2_17_959pm" +
+                "\r\nBot revision: 18_2_19_729pm" +
                 "\r\nBot Type: " + key_stat + " | Web-socket-based" +
                 "\r\n=====================================");
 
@@ -35,8 +36,7 @@ namespace RyuBot
                 Console.BackgroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine(time + ":: Reading Key file...");
                 Console.WriteLine(time + ":: Connecting...");
-                //var key = File.ReadAllText(cd + "\\key");
-                await _client.LoginAsync(TokenType.Bot, "<key here>");
+                await _client.LoginAsync(TokenType.Bot, key);
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.WriteLine(time + ":: Key file is valid");
                 await _client.StartAsync();

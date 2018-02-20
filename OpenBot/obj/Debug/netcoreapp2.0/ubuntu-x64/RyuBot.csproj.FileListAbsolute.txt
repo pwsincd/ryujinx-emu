@@ -1,0 +1,13 @@
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\libhostpolicy.so
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\libhostfxr.so
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\OpenBot
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\OpenBot.deps.json
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\OpenBot.runtimeconfig.json
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\OpenBot.runtimeconfig.dev.json
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\OpenBot.dll
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\bin\Debug\netcoreapp2.0\ubuntu-x64\OpenBot.pdb
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\obj\Debug\netcoreapp2.0\ubuntu-x64\RyuBot.csproj.CoreCompileInputs.cache
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\obj\Debug\netcoreapp2.0\ubuntu-x64\RyuBot.AssemblyInfoInputs.cache
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\obj\Debug\netcoreapp2.0\ubuntu-x64\RyuBot.AssemblyInfo.cs
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\obj\Debug\netcoreapp2.0\ubuntu-x64\OpenBot.dll
+C:\Users\luked\Documents\GitHub\ryujinx-emu.github.io\OpenBot\obj\Debug\netcoreapp2.0\ubuntu-x64\OpenBot.pdb
