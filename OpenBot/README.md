@@ -1,10 +1,10 @@
 # OpenBot 
 
 ## Dr.Hackniks RyujiNX Bot for Discord: 
-* **Version:** 0.1.3
+* **Version:** 0.1.4
 * **Bot name:** OpenBot
-* **Bot revision:** 18_2_11_1232pm" 
-* **Bot Type:** win10-x64 | Web-socket-based" 
+* **Bot revision:** 18_2_19_729pm" 
+* **Bot Type:** ubuntu-x64 | Web-socket-based" 
 
 ### Bot Usage: 
 ```
