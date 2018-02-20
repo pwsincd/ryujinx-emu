@@ -16,7 +16,7 @@ namespace RyuBot.Modules
         {
             var messages = await this.Context.Channel.GetMessagesAsync(1).Flatten();
             await this.Context.Channel.DeleteMessagesAsync(messages);
-            await Context.Channel.SendMessageAsync(user.Mention + " | **Please read the rules on the channel #rules. \r\nYou have been formally warned!**");
+            await Context.Channel.SendMessageAsync(user.Mention + " | **Please read the rules on the channel #rules. \r\nYou have been formally warned!** \r\nWe do **NOT** allow the sharing of Warez, or (other) Pirating sources.");
 
             Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(time + ":: Command Request: !warn; " + "ID <" + Context.User.Id.ToString() + "> " +
